@@ -27,4 +27,17 @@ public class swap{
 		System.out.println("First name: "+fname);
 		System.out.println("Last name: "+lname);
 	}
+	private static void swap(String fname, String lname) {
+		// TODO Auto-generated method stub
+		
+		String temp = "";
+		
+		temp = fname;
+		fname = lname;
+		lname = temp;
+		
+		System.out.println("After swap : ");
+		System.out.println("First name: "+fname);
+		System.out.println("Last name: "+lname);
+	}
 }
